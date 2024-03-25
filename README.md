@@ -49,6 +49,12 @@ A simple design with clear focus on the functionality of the game is key for thi
 
 #### Wireframes
 
+For initially designing the project, I utilised Balsamiq to produce wireframes. This step allows for planning how things will be laid out, allowing to focus more on getting it to look right and the functionality of the website instead of trying to simultaneously code and design.
+
+- [Welcome Area Wireframe](./docs/wireframes/welcome_wireframe.png)
+- [Game Area Wireframe](./docs/wireframes/game_wireframe.png)
+- [Results Area Wireframe](./docs/wireframes/results_wireframe.png)
+
 #### Colour Scheme
 
 #### Typography
