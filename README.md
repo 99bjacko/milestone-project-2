@@ -45,6 +45,8 @@ Derived from user stories
 
 ### Initial Concept
 
+A simple design with clear focus on the functionality of the game is key for this website. The design should be kept free from distractions as unnecessary clutter would take focus from the game itself. Using a colour scheme that is eye-catching yet with sufficient contrast to ensure all content is sufficiently readable. Only the relevant information will be shown - for example, when the game is in progress, the information about how to play it and also the results screen will be hidden. This will assist in keeping the design as streamlined as possible, avoiding potential confusion.
+
 #### Wireframes
 
 #### Colour Scheme
