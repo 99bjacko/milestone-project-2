@@ -41,7 +41,7 @@ Derived from user stories
 |Share some of my favourite songs | 5 | 5 |
 |Entertaining and interactive quiz game that keeps users engaged | 5 | 5 |
 |Entertaining and interactive quiz game that is challenging enough but not overly difficult | 5 | 5 |
-|Entertaining and interactive quiz game that has a variety of questions that change each time the game is played | 5 | 5 |
+|Entertaining and interactive quiz game that has a variety of questions that change each time the game is played | 5 | 4 |
 
 ### Initial Concept
 
