@@ -7,58 +7,89 @@
     <meta name="description" content="A lyric quiz">
     <meta nmame="keywords" content="lyric quiz, lyrics, quiz, alternative rock, rock, pop, fun quiz">
     <title>A lyric quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Stylesheet -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- Logo -->
-    <header class="header">
-        <a href="./index.html" class="logo" aria-label="Home Page">Lyric Quiz</a>
+    <header>
+        <a href="./index.html" class="navbar-brand logo" aria-label="Home Page">LYRIC QUIZ</a>
     </header>
 
     <!-- Description-->
-    <div class="description-area">
-        <div class="description-header">
-            <h1>Welcome to the Lyric Quiz</h1>
-        </div>
-        <div class="description-content">
-            <p>Some description of the quiz goes here Some description of the quiz goes here Some description of the quiz goes here Some description of the quiz goes here Some description of the quiz goes here</p>
-        </div>
-    </div>
-
-    <!-- Start Button -->
-    <div class="start-btn">
-        <button aria-label="Start Quiz Button">Start Quiz</button>
+    <div class="container description-container">
+        <section class="description text-center">
+            <div class="row">
+                <div class="col-12 description-header">
+                    <h1>Welcome to the Lyric Quiz</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 description-content">
+                    <p>Some description of the quiz goes here Some description of the quiz goes here Some description of the quiz goes here Some description of the quiz goes here Some description of the quiz goes here</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Start Button -->
+                <div class="col-12 start-btn">
+                    <button aria-label="Start Quiz Button">Start Quiz</button>
+                </div>
+            </div>
+        </section>
     </div>
 
     <!-- Question Area -->
-    <div class="question-area">
-        <div class="question-count">
+    <div class="container question-container">
+        <section class="questions text-center">
+            <div class="row">
+                <div class="col-12 question-count">
 
-        </div>
-        <div class="question">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 question">
 
-        </div>
-        <div class="answers">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 answers">
 
-        </div>
-        <div class="next-question-btn">
-            <button aria-label="Next Question">Next Question</button>
-        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 next-question-btn">
+                    <button aria-label="Next Question">Next Question</button>
+                </div>
+            </div>
+        </section>
     </div>
 
     <!-- Results Area -->
-    <div class="results-area">
-        <div class="results-message">
+    <div class="container results-container">
+        <section class="results text-center">
+            <div class="row">
+                <div class="col-12 results-message">
 
-        </div>
-        <div class="player-score">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 player-score">
 
-        </div>
-        <div class="results-btns">
-            <button aria-label="Play Again">Play Again</button>
-            <button aria-label="Home">Back To The Start</button>
-        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 results-btns">
+                    <button aria-label="Play Again">Play Again</button>
+                    <button aria-label="Home">Back To The Start</button>
+                </div>
+            </div>
+        </section>
     </div>
+    <!-- Bootstrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>
