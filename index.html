@@ -33,28 +33,37 @@
             <div class="row">
                 <!-- Start Button -->
                 <div class="col-12 start-btn">
-                    <button aria-label="Start Quiz Button">Start Quiz</button>
+                    <button aria-label="Start Quiz Button">START QUIZ</button>
                 </div>
             </div>
         </section>
     </div>
 
     <!-- Question Area -->
-    <div class="container question-container">
-        <section class="questions text-center">
+    <div class="container game-container">
+        <section class="text-center">
             <div class="row">
                 <div class="col-12 question-count">
-
+                    <p id="question-number">Question x of 10</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 question">
-
+                <div class="col-12 question-text">
+                    <p id="question">Never gonna give you up</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 answers">
-
+            <div class="row results-btns">
+                <div class="col-12 col-lg-6 answer-btn">
+                    <button aria-label="Answer1">Answer1</button>
+                </div>
+                <div class="col-12 col-lg-6 answer-btn">
+                    <button aria-label="Answer2">Answer2</button>
+                </div>
+                <div class="col-12 col-lg-6 answer-btn">
+                    <button aria-label="Play Again">Answer3</button>
+                </div>
+                <div class="col-12 col-lg-6 answer-btn">
+                    <button aria-label="Home">Answer4</button>
                 </div>
             </div>
             <div class="row">
@@ -69,18 +78,20 @@
     <div class="container results-container">
         <section class="results text-center">
             <div class="row">
-                <div class="col-12 results-message">
-
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-12 player-score">
-
+                    <p>You scored x out of 10</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 results-btns">
+                <div class="col-12 results-message">
+                    <p>Example Results Message</p>
+                </div>
+            </div>
+            <div class="row results-btns">
+                <div class="col-12 col-lg-6 play-again-btn">
                     <button aria-label="Play Again">Play Again</button>
+                </div>
+                <div class="col-12 col-lg-6 home-btn">
                     <button aria-label="Home">Back To The Start</button>
                 </div>
             </div>
