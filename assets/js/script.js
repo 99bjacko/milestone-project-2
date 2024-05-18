@@ -49,8 +49,8 @@ playAgainBtn.addEventListener("click", restartGame);
 
 // Game Setup
 
-gameContainer.classList.add("hide");
-resultsContainer.classList.add("hide");
+gameContainer.classList.add("d-none");
+resultsContainer.classList.add("d-none");
 let currentQuestion = 0;
 let currentQuestionNumber = 0;
 let score = 0;
@@ -58,7 +58,10 @@ let totalQuestions = 10;
 let chosenAnswer = "";
 
 function startGame() {
-
+    randomiseQuestions();
+    descriptionContainer.classList.add("d-none");
+    gameContainer.classList.remove("d-none");
+    showQuestion(randomisedQuestionsArr[currentQuestion]);
 }
 
 function randomiseQuestions() {
