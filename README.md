@@ -98,6 +98,16 @@ The typeface Ubuntu was used for the rest of the website.
 
 ### Description Container
 
+![Description Container](./docs/readme/screenshot_description_container.png)
+
+The description container is the landing page of the website, featuring a simple yet effective design.
+
+The description container features a heading, a few paragraphs containing information about the quiz as well as the start quiz button.
+
+The description container satisfies the second user story as it is responsive and looks appealing on multiple devices with varying screen sizes.
+
+The description container also satisfies the third user story as it provides some insight on how to play the game before starting.
+
 ### Game Container
 
 ### Results Container
