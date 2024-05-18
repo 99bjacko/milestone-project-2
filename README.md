@@ -167,6 +167,10 @@ Despite being mostly happy with my project, I believe that there are ways that i
 
 ### Languages Used
 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript (including Bootstrap)](https://en.wikipedia.org/wiki/JavaScript)
+
 ### Frameworks, Libraries, Programmes and Tools Used
 
 ## Testing
