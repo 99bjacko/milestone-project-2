@@ -132,7 +132,36 @@ The typeface Ubuntu was used for the rest of the website.
 
 ### Results Container
 
+![Results Container](./docs/readme/screenshot_results_container.png)
+
+ - After answering 10 questions, the game will end and the results container will be displayed.
+
+ - The results container displays the user's score out of 10, a message based on the score and a play again button which will go back to the start and disaply the description container.
+
+ - The results container satisfies the second user story as it is responsive and looks appealing on multiple devices with varying screen sizes.
+
+All opportunities derived from user stories have been achieved as detailed above.
+
 ### Features to Implement
+
+Despite being mostly happy with my project, I believe that there are ways that it can be improved by implementing some additional features and tweaks.
+
+- Design Adjustments
+
+    - The website could be made even more aesthetically pleasing by making some tweaks to the overall design.
+    - I would like the website to have a custom simple background image, whilst still maintaining the contrast and readability. I believe that this would contribute positively towards the overall experience and make the website more enjoyable to engage with.
+    - Some additional small changes could be made, such as refining the style of the answer buttons.
+
+- Functionality Adjustments
+
+    - Some additions to the functionality of the quiz could be made to make the user experience better and make the quiz itself even more engaging.
+    - Incorrect answers could be randomly selected for each question, meaning even if it is the same lyric and the same correct answer, the other answers could be different to when previously answering that same question.
+    - Implementing a restart button, which restarts the quiz from question 1, instead of having to go back to the main area and hitting the start button again.
+    - More topics could be added for variety and to make sure that if the user is not a big music fan, they can still be engaged by this website.
+
+- Other Suggestions
+
+    - Spotify integration could be added to this website, allowing users to explore new music after playing the quiz.
 
 ## Technologies Used
 
