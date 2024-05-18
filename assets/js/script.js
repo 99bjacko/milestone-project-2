@@ -309,5 +309,9 @@ function showResults() {
 }
 
 function restartGame() {
-
+    currentQuestion = 0;
+    currentQuestionNumber = 0;
+    score = 0;
+    resultsContainer.classList.add("d-none");
+    descriptionContainer.classList.remove("d-none");
 }
