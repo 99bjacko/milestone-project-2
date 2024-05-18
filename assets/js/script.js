@@ -20,7 +20,7 @@ const questionsArr = [
         correctAnswer: "Animals - Architects",
     },
     {
-        lyric: "He doensn't look a thing like Jesus but he talks like a gentleman",
+        lyric: "He doesn't look a thing like Jesus but he talks like a gentleman",
         answers: [
             "Use Somebody - Kings of Leon",
             "What I've Done - Linkin Park",
@@ -230,8 +230,8 @@ for (let i = 0; i < answerBtns.length; i++) {
 nextQuestionButton.addEventListener("click", () => {
     checkAnswer();
     currentQuestion++;
-    if (currentQuestion < questionsArr.length){
-        showQuestion(questionsArr[currentQuestion]);
+    if (currentQuestion < randomisedQuestionsArr.length){
+        showQuestion(randomisedQuestionsArr[currentQuestion]);
     }
 });
 
@@ -251,11 +251,19 @@ function startGame() {
     randomiseQuestions();
     descriptionContainer.classList.add("d-none");
     gameContainer.classList.remove("d-none");
-    showQuestion(questionsArr[currentQuestion]);
+    showQuestion(randomisedQuestionsArr[currentQuestion]);
 }
 
 function randomiseQuestions() {
     // When complete, change questionsArr to randomisedQuestionsArr
+    for (var i = questionsArr.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = questionsArr[i];
+        questionsArr[i] = questionsArr[j];
+        questionsArr[j] = temp; 
+    }
+    randomisedQuestionsArr = questionsArr;
+    return;
 }
 
 function showQuestion(selectedQuestion) {
@@ -270,7 +278,7 @@ function showQuestion(selectedQuestion) {
 }
 
 function checkAnswer() {
-    let correctAnswer = questionsArr[currentQuestion].correctAnswer;
+    let correctAnswer = randomisedQuestionsArr[currentQuestion].correctAnswer;
     if (chosenAnswer === correctAnswer){
         score++;
     }
