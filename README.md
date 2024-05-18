@@ -69,7 +69,34 @@ The typeface Ubuntu was used for the rest of the website.
 
 ## Features
 
-### Welcome Container
+### Common Features
+
+- Logo
+
+    - The lyric quiz logo is present at all times on this website, acting as a home button which can be clicked before, during or after the quiz.
+    - The logo contributes to easy and intuitive navigation, thus satisfying the first user story.
+    
+    ![Logo](./docs/readme/logo.png)
+
+    ![Logo Highlighted](./docs/readme/logo_highlighted.png)
+
+- Call to Action Button
+    
+    - Each container of this website has one single call to action button relevant to which container it is in.
+    - The description container has a start quiz button.
+    - The game container has a next question button, which is disabled at first and then enabled when a user chooses an answer.
+    - The results container has a play again button.
+    - These buttons are key in providing easy and intuitive navigation to the user, satisfying the first user story.
+
+    ![Start Button](./docs/readme/start_quiz_button.png)
+
+    ![Next Question Button Disabled](./docs/readme/next_question_button_disabled.png)
+
+    ![Next Question Button](./docs/readme/next_question_button.png)
+
+    ![Play Again Button](./docs/readme/play_again_button.png)
+
+### Description Container
 
 ### Game Container
 
