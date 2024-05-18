@@ -274,7 +274,10 @@ function checkAnswer() {
 }
 
 function nextBtnEnable() {
-
+    nextQuestionButton.disabled = false;
+    for (let i = 0; i < answerBtns.length; i++){
+        answerBtns[i].disabled = true;
+    }
 }
 
 function showResults() {
