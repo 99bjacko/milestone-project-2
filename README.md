@@ -100,15 +100,35 @@ The typeface Ubuntu was used for the rest of the website.
 
 ![Description Container](./docs/readme/screenshot_description_container.png)
 
-The description container is the landing page of the website, featuring a simple yet effective design.
+- The description container is the landing page of the website, featuring a simple yet effective design.
 
-The description container features a heading, a few paragraphs containing information about the quiz as well as the start quiz button.
+- The description container features a heading, a few paragraphs containing information about the quiz as well as the start quiz button.
 
-The description container satisfies the second user story as it is responsive and looks appealing on multiple devices with varying screen sizes.
+- The description container satisfies the second user story as it is responsive and looks appealing on multiple devices with varying screen sizes.
 
-The description container also satisfies the third user story as it provides some insight on how to play the game before starting.
+- The description container also satisfies the third user story as it provides some insight on how to play the game before starting.
 
 ### Game Container
+
+![Game Container](./docs/readme/screenshot_game_container.png)
+
+- The game container is displayed when the user clicks the start button and features the current question number, a lyric from a song, and 4 answer buttons containing a song title paired with an artist.
+
+- The question displayed is picked from a predetermined list of questions and answers. The list is randomised before playing the quiz.
+
+- The next question button is disabled by default, forcing players to pick an answer before progressing.
+
+![Game Container with Answer Chosen](./docs/readme/screenshot_answer_chosen.png)
+
+- After choosing an answer by clicking on the corresponding button, the answer buttons are disabled and the next question button is enabled.
+
+- The chosen answer is clearly identified by the gray background and white text colour.
+
+- The game container satisfies user stories 4, 5, 6, 7, and 8 as it provides a quiz that is entertaining and interactive, allows users to test their knowledge of popular songs, challenges users whilst not being too difficult, encourages users to expand their knowledge about different songs, and asks users a variety of questions in a different order enabling replayablity which would not be possible with a set order of questions.
+
+- The game container also satisfies the second user story as it is responsive and looks appealing on multiple devices with varying screen sizes. On smaller screen sizes, the buttons which are in rows of two on larger screens, are now stacked on top of each other as well as slightly smaller. This can be seen below.
+
+![Game Container on a Small Screen](./docs/readme/screenshot_game_container_small.png)
 
 ### Results Container
 
