@@ -26,4 +26,18 @@ header {
 
 .chosen {
     background-color: gray !important;
+    color: #fff;
+}
+
+.answer-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media (min-width: 992px) {
+    .answer-btn {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
