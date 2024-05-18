@@ -221,6 +221,7 @@ startBtn.addEventListener("click", startGame);
 
 for (let i = 0; i < answerBtns.length; i++) {
     answerBtns[i].addEventListener("click", () => {
+        answerBtns[i].classList.add("chosen");
         chosenAnswer = answerBtns[i].textContent;
         nextBtnEnable();
     });
@@ -263,6 +264,7 @@ function showQuestion(selectedQuestion) {
     questionText.textContent = selectedQuestion.lyric;
     for (let i = 0; i < selectedQuestion.answers.length; i++){
         answerBtns[i].textContent = selectedQuestion.answers[i];
+        answerBtns[i].classList.remove("chosen");
         answerBtns[i].disabled = false;
     }
 }

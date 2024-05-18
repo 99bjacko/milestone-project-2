@@ -18,3 +18,7 @@ header {
     padding-top: 75px;
     padding-bottom: 25px;
 }
+
+.chosen {
+    color: grey;
+}
