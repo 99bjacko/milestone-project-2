@@ -11,8 +11,9 @@ const questionsArr = [
 
     },
 ];
-
+// Initialises randomised array of questions
 let randomisedQuestionsArr;
+// Setting variables for the elements needed
 const descriptionContainer = document.getElementById("description-container");
 const gameContainer = document.getElementById("game-container");
 const resultsContainer = document.getElementById("results-container");
@@ -24,9 +25,28 @@ const nextQuestionButton = document.getElementById("next-question-btn");
 const playerScore = document.getElementById("player-score");
 const resultsMessage = document.getElementById("results-message");
 const playAgainBtn = document.getElementById("play-again-btn");
-const homeBtn = document.getElementById("home-btn");
+
+// Event Listeners
 
 startBtn.addEventListener("click", startGame);
+
+for (let i = 0; i < answerBtns.length; i++) {
+    answerBtns[i].addEventListener("click", () => {
+        chosenAnswer = answerBtns[i].textContent;
+        nextBtnEnable();
+    });
+}
+
+nextQuestionButton.addEventListener("click", () => {
+    checkAnswer();
+    currentQuestion++;
+    if (currentQuestion < randomisedQuestionsArr.length){
+        showQuestion(randomisedQuestionsArr[currentQuestion]);
+    }
+});
+
+playAgainBtn.addEventListener("click", restartGame);
+
 
 
 function startGame() {
@@ -37,7 +57,15 @@ function randomiseQuestions() {
 
 }
 
+function showQuestion() {
+
+}
+
 function checkAnswer() {
+
+}
+
+function nextBtnEnable() {
 
 }
 
