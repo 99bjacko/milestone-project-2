@@ -32,8 +32,8 @@
             </div>
             <div class="row">
                 <!-- Start Button -->
-                <div class="col-12" id="start-btn">
-                    <button aria-label="Start Quiz Button">START QUIZ</button>
+                <div class="col-12" id="start-btn-container">
+                    <button id="start-btn" aria-label="Start Quiz Button">START QUIZ</button>
                 </div>
             </div>
         </section>
@@ -43,32 +43,32 @@
     <div class="container" id="game-container">
         <section class="text-center">
             <div class="row">
-                <div class="col-12" id="question-count">
+                <div class="col-12" id="question-number-container">
                     <p id="question-number">Question x of 10</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12" id="question-text">
-                    <p id="question">Never gonna give you up</p>
+                <div class="col-12" id="question-text-container">
+                    <p id="question-text">Never gonna give you up</p>
                 </div>
             </div>
             <div class="row results-btns">
-                <div class="col-12 col-lg-6 answer-btn">
-                    <button aria-label="Answer1">Answer1</button>
+                <div class="col-12 col-lg-6 answer-btn-container">
+                    <button class="answer-btn" aria-label="Answer1">Answer1</button>
                 </div>
-                <div class="col-12 col-lg-6 answer-btn">
-                    <button aria-label="Answer2">Answer2</button>
+                <div class="col-12 col-lg-6 answer-btn-container">
+                    <button class="answer-btn" aria-label="Answer2">Answer2</button>
                 </div>
-                <div class="col-12 col-lg-6 answer-btn">
-                    <button aria-label="Play Again">Answer3</button>
+                <div class="col-12 col-lg-6 answer-btn-container">
+                    <button class="answer-btn" aria-label="Play Again">Answer3</button>
                 </div>
-                <div class="col-12 col-lg-6 answer-btn">
-                    <button aria-label="Home">Answer4</button>
+                <div class="col-12 col-lg-6 answer-btn-container">
+                    <button class="answer-btn" aria-label="Home">Answer4</button>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12" id="next-question-btn">
-                    <button aria-label="Next Question">Next Question</button>
+                <div class="col-12" id="next-question-btn-container">
+                    <button id="next-question-btn" aria-label="Next Question">Next Question</button>
                 </div>
             </div>
         </section>
@@ -78,21 +78,21 @@
     <div class="container" id="results-container">
         <section class="results text-center">
             <div class="row">
-                <div class="col-12" id="player-score">
-                    <p>You scored x out of 10</p>
+                <div class="col-12" id="player-score-container">
+                    <p id="player-score">You scored x out of 10</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12" id="results-message">
-                    <p>Example Results Message</p>
+                <div class="col-12" id="results-message-container">
+                    <p id="results-message">Example Results Message</p>
                 </div>
             </div>
             <div class="row results-btns">
-                <div class="col-12 col-lg-6" id="play-again-btn">
-                    <button aria-label="Play Again">Play Again</button>
+                <div class="col-12 col-lg-6" id="play-again-btn-container">
+                    <button id="play-again-btn" aria-label="Play Again">Play Again</button>
                 </div>
-                <div class="col-12 col-lg-6" id="home-btn">
-                    <button aria-label="Home">Back To The Start</button>
+                <div class="col-12 col-lg-6" id="home-btn-container">
+                    <button id="home-btn" aria-label="Home">Back To The Start</button>
                 </div>
             </div>
         </section>
