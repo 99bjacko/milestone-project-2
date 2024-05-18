@@ -10,6 +10,9 @@ const questionsArr = [
         correctAnswer: "Learn to Fly - Foo Fighters",
 
     },
+    {
+        
+    }
 ];
 // Initialises randomised array of questions
 let randomisedQuestionsArr;
@@ -40,8 +43,8 @@ for (let i = 0; i < answerBtns.length; i++) {
 nextQuestionButton.addEventListener("click", () => {
     checkAnswer();
     currentQuestion++;
-    if (currentQuestion < randomisedQuestionsArr.length){
-        showQuestion(randomisedQuestionsArr[currentQuestion]);
+    if (currentQuestion < questionsArr.length){
+        showQuestion(questionsArr[currentQuestion]);
     }
 });
 
@@ -61,15 +64,21 @@ function startGame() {
     randomiseQuestions();
     descriptionContainer.classList.add("d-none");
     gameContainer.classList.remove("d-none");
-    showQuestion(randomisedQuestionsArr[currentQuestion]);
+    showQuestion(questionsArr[currentQuestion]);
 }
 
 function randomiseQuestions() {
-
+    // When complete, change questionsArr to randomisedQuestionsArr
 }
 
-function showQuestion() {
-
+function showQuestion(selectedQuestion) {
+    currentQuestionNumber++;
+    questionNumber.textContent = currentQuestionNumber;
+    questionText.textContent = selectedQuestion.lyric;
+    for (let i = 0; i < selectedQuestion.answers.length; i++){
+        answerBtns[i].textContent = selectedQuestion.answers[i];
+        answerBtns[i].disabled = false;
+    }
 }
 
 function checkAnswer() {
