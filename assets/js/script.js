@@ -12,9 +12,20 @@ const questionsArr = [
     },
 ];
 
+let randomisedQuestionsArr;
 const descriptionContainer = document.getElementById("description-container");
 const gameContainer = document.getElementById("game-container");
 const resultsContainer = document.getElementById("results-container");
+const startBtn = document.getElementById("start-btn");
+const questionCount = document.getElementById("question-count");
+const questionText = document.getElementById("question-text");
+const answerBtns = document.getElementsByClassName("answer-btn");
+const nextQuestionButton = document.getElementById("next-question-btn");
+const playerScore = document.getElementById("player-score");
+const resultsMessage = document.getElementById("results-message");
+const playAgainBtn = document.getElementById("play-again-btn");
+const homeBtn = document.getElementById("home-btn");
+
 
 function startGame() {
 
@@ -33,5 +44,5 @@ function showResults() {
 }
 
 function restartGame() {
-    
+
 }
