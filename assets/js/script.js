@@ -288,7 +288,24 @@ function nextBtnEnable() {
 }
 
 function showResults() {
-
+    gameContainer.classList.add("d-none");
+    resultsContainer.classList.remove("d-none");
+    if (score === 10) {
+        resultsMessage.textContent = "You smashed it, I'm almost suspicious!";
+        playerScore.textContent = `You scored ${score} out of 10`;
+    } else if (score >= 8) {
+        resultsMessage.textContent = "Not bad at all! A few more attempts and you'll get 100%";
+        playerScore.textContent = `You scored ${score} out of 10`;
+    } else if (score >= 5) {
+        resultsMessage.textContent = "You could work on your music knowledge, but it certainly could be worse";
+        playerScore.textContent = `You scored ${score} out of 10`;
+    } else if (score >= 2) {
+        resultsMessage.textContent = "You need to spend a day or two on Spotify I think!";
+        playerScore.textContent = `You scored ${score} out of 10`;
+    } else if (score < 2) {
+        resultsMessage.textContent = "Do you even listen to music?";
+        playerScore.textContent = `You scored ${score} out of 10`;
+    }
 }
 
 function restartGame() {
