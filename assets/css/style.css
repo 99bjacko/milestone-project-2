@@ -1,6 +1,8 @@
 body {
-    background-color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
     color: #000;
+    background-color: #ffba08;
 }
 
 header {
@@ -11,7 +13,10 @@ header {
 }
 
 .navbar-brand {
+    font-family: "Poetsen One", sans-serif;
     font-weight: 700;
+    font-size: 300%;
+    color: #fff;
 }
 
 .description-header {
@@ -20,5 +25,5 @@ header {
 }
 
 .chosen {
-    color: grey;
+    background-color: gray !important;
 }

@@ -25,7 +25,7 @@ const questionsArr = [
             "Use Somebody - Kings of Leon",
             "What I've Done - Linkin Park",
             "When You Were Young - The Killers",
-            "Love Never Felt So Good - Michael Jackson, Justin Timberlake"
+            "The Feels - Labrinth"
         ],
         correctAnswer: "When You Were Young - The Killers",
     },
@@ -268,7 +268,7 @@ function randomiseQuestions() {
 
 function showQuestion(selectedQuestion) {
     currentQuestionNumber++;
-    questionNumber.textContent = currentQuestionNumber;
+    questionNumber.textContent = `Question ${currentQuestionNumber}`;
     questionText.textContent = selectedQuestion.lyric;
     for (let i = 0; i < selectedQuestion.answers.length; i++){
         answerBtns[i].textContent = selectedQuestion.answers[i];
