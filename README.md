@@ -57,7 +57,15 @@ For initially designing the project, I utilised Balsamiq to produce wireframes. 
 
 #### Colour Scheme
 
+The colour scheme for this project ended up being something I debated quite a bit. I considered having a background image, but I couldn't find something that suited this project completely, without sacrificing on some of the key factors stated in the initial concept section. In the end, I settled on a very simple colour scheme, sticking with a solid yellow (#ffba08) background, with a white logo, black text and a mixture of Bootstrap's default and primary button styles. The end result is something that despite being simple, is still stylish and sufficiently contrasted.
+
 #### Typography
+
+The typography for this project was picked by browsing the google fonts website until I found something that really stood out to me. 
+
+For the text logo, I wanted something that was more abstract and different to many of the more 'normal' typefaces. I ended up settling on the Poetsen One typeface, which appears more curved than many other typefaces and it stood out to me immediately. Using a heavier font weight, I was able to achieve the look I was going for.
+
+The typeface Ubuntu was used for the rest of the website.
 
 ## Features
 
