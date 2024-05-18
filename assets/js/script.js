@@ -1,3 +1,4 @@
+// Questions Array
 const questionsArr = [
     {
         lyric: "Now I'm lookin' to the sky to save me, lookin' for a sign of life",
@@ -247,6 +248,7 @@ let score = 0;
 let totalQuestions = 10;
 let chosenAnswer = "";
 
+// Starts quiz on click
 function startGame() {
     randomiseQuestions();
     descriptionContainer.classList.add("d-none");
@@ -254,8 +256,8 @@ function startGame() {
     showQuestion(randomisedQuestionsArr[currentQuestion]);
 }
 
+// Randomises questions for each playthrough
 function randomiseQuestions() {
-    // When complete, change questionsArr to randomisedQuestionsArr
     for (var i = questionsArr.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
         var temp = questionsArr[i];
@@ -265,7 +267,7 @@ function randomiseQuestions() {
     randomisedQuestionsArr = questionsArr;
     return;
 }
-
+// Shows the current question and answer options
 function showQuestion(selectedQuestion) {
     currentQuestionNumber++;
     questionNumber.textContent = `Question ${currentQuestionNumber}`;
@@ -276,7 +278,7 @@ function showQuestion(selectedQuestion) {
         answerBtns[i].disabled = false;
     }
 }
-
+// Checks if the chosen answer is correct
 function checkAnswer() {
     let correctAnswer = randomisedQuestionsArr[currentQuestion].correctAnswer;
     if (chosenAnswer === correctAnswer){
@@ -287,14 +289,14 @@ function checkAnswer() {
     }
     nextQuestionButton.disabled = true;
 }
-
+// Enables the next question button and disables the answer buttons
 function nextBtnEnable() {
     nextQuestionButton.disabled = false;
     for (let i = 0; i < answerBtns.length; i++){
         answerBtns[i].disabled = true;
     }
 }
-
+// Shows the results of the quiz
 function showResults() {
     gameContainer.classList.add("d-none");
     resultsContainer.classList.remove("d-none");
@@ -315,7 +317,7 @@ function showResults() {
         playerScore.textContent = `You scored ${score} out of 10`;
     }
 }
-
+// Restarts the quiz when clicked
 function restartGame() {
     currentQuestion = 0;
     currentQuestionNumber = 0;

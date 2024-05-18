@@ -1,3 +1,5 @@
+/* Font, text colours and background colours used throughout the site */
+
 body {
     font-family: "Ubuntu", sans-serif;
     font-size: 22px;
@@ -12,6 +14,7 @@ header {
     width: 100%;
 }
 
+/* Text logo */
 .navbar-brand {
     font-family: "Poetsen One", sans-serif;
     font-weight: 700;
@@ -24,6 +27,7 @@ header {
     padding-bottom: 25px;
 }
 
+/* Answer buttons */
 .chosen {
     background-color: gray !important;
     color: #fff;
@@ -34,7 +38,7 @@ header {
     padding-bottom: 10px;
 }
 
-
+/* Styles for larger screens */
 @media (min-width: 992px) {
     .answer-btn {
         padding-top: 40px;
