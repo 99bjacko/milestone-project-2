@@ -270,7 +270,14 @@ function showQuestion(selectedQuestion) {
 }
 
 function checkAnswer() {
-
+    let correctAnswer = questionsArr[currentQuestion].correctAnswer;
+    if (chosenAnswer === correctAnswer){
+        score++;
+    }
+    if (currentQuestionNumber === totalQuestions){
+        showResults();
+    }
+    nextQuestionButton.disabled = true;
 }
 
 function nextBtnEnable() {
