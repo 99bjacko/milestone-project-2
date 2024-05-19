@@ -1,6 +1,6 @@
 # Milestone Project 2 - Lyric Quiz
 
-Responsive Image goes here
+![Responsive Website Mockup](./docs/readme/responsive_image.png)
 
 ## Live Site
 
