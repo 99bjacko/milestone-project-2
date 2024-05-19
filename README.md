@@ -4,7 +4,7 @@ Responsive Image goes here
 
 ## Live Site
 
-The live site for this project can be found at this link:
+The live site for this project can be found at this link: https://99bjacko.github.io/milestone-project-2/
 
 ## GitHub Repository
 
@@ -185,14 +185,43 @@ Despite being mostly happy with my project, I believe that there are ways that i
 
 ## Deployment
 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Log in to GitHub
+2. Navigate to the GitHub repository for this project, milestone-project-2
+3. In the repository, navigate to the *Settings* tab
+4. Select the pages link from the menu on the left hand side
+5. Under the Build and deployment heading, make sure the source selected is *Deploy from a branch*
+6. In the branch section, select the *Main* branch from the drop-down menu and click Save
+7. A message will be displayed to indicate a successful deployment to GitHub pages and a live link will appear
+
+You can find the live site at this link: <https://99bjacko.github.io/milestone-project-2/>
+
 ### Forking the GitHub Repository
 
+Forking the GitHub repository allows a copy of the original repository to be made without affecting the original repository. This can be achieved by following these steps:
+
+1. Log in to GitHub
+2. Navigate to the GitHub repository for this project, milestone-project-2
+3. Click the Fork button in the top right corner
+
 ### Making a Local Clone
+
+1. Log in to GitHub
+2. Navigate to the GitHub repository for this project, milestone-project-2
+3. To clone the repository using HTTPS, copy the link under "Clone with HTTPS"
+4. Open a GitBash terminal and navigate to the location you want to use for the cloned directory
+5. Use the git clone command with the URL copied in Step 3
+
+```
+$ git clone https://github.com/99bjacko/milestone-project-1.git
+```
+7. Press enter and your local clone will be created
 
 ## Credits
 
 ### Code
-
+- The code used for randomising the questions was the [Durstenfeld shuffle](https://stackoverflow.com/a/12646864)
 ### Content
 
 ### Media
