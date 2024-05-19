@@ -175,6 +175,22 @@ Despite being mostly happy with my project, I believe that there are ways that i
 
 ## Testing
 
+The W3C Nu HTML Checker (previously W3C Markup Validation Service), W3C CSS Validation Service and JSHint Version 2.13.6 were used to validate this project to ensure there were no syntax errors present.
+
+When I initially checked my project, the HTML checker highlighted two errors. Both errors were due to the name attribute on line 9 in index.html being spelled incorrectly. After changing this, the website passes the HTML validation checks.
+
+![Nu HTML Checker](./docs/readme/html_validation.png)
+
+
+When initially running the JavaScript code through JSHint, there were no errors but 31 warnings, related to the 'esversion'. After adding the comment at the top of script.js to state the esversion, there was only one warning remaining, which didn't seem to cause any major issues when testing.
+
+![JSHint Validation](./docs/readme/jshint_validation.png)
+
+When checking the CSS code for this project, there were no errors raised as seen below.
+
+![CSS Validation](./docs/readme/css_validation.png)
+
+
 ### Lighthouse Testing
 
 #### Desktop Testing
