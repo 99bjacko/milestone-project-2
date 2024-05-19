@@ -173,6 +173,18 @@ Despite being mostly happy with my project, I believe that there are ways that i
 
 ### Frameworks, Libraries, Programmes and Tools Used
 
+- [Gitpod](https://gitpod.io/): used to create the site (IDE)
+- [Bootstrap 4.1.3](https://getbootstrap.com/docs/4.1/getting-started/download/): used to aid with responsive design and styling of the website
+- [Google Fonts](https://fonts.google.com/): used to import the fonts used for this website into the style.css file
+- [Google Developer Tools](https://developer.chrome.com/docs/devtools/): used for troubleshooting and testing
+- [jQuery](https://jquery.com/): used to enable Bootstrap JavaScript
+- [Popper](https://popper.js.org/docs/v2/): used to enable Bootstrap JavaScript
+- [Git](https://git-scm.com/): used for version control by utilising the Gitpod terminal to commit to Git and push to GitHub
+- [GitHub](https://github.com/): used to save and store the files for the project
+- [Microsoft Paint 3D](https://en.wikipedia.org/wiki/Paint_3D): used for resizing images for README.md
+- [Balsamiq](https://balsamiq.com/): used to create the wireframes during the design process
+- [Am I Responsive?](https://ui.dev/amiresponsive): used to create an image depicting what the website looks like on different devices
+
 ## Testing
 
 The W3C Nu HTML Checker (previously W3C Markup Validation Service), W3C CSS Validation Service and JSHint Version 2.13.6 were used to validate this project to ensure there were no syntax errors present.
@@ -193,11 +205,28 @@ When checking the CSS code for this project, there were no errors raised as seen
 
 ### Lighthouse Testing
 
-#### Desktop Testing
+For this project, I tested the performance, accessibility, best practices and SEO of the website using Lighthouse, one of the Chrome Developer Tools.
 
-#### Mobile Testing
+![Lighthouse Desktop](./docs/readme/lighthouse_desktop.png)
+
+![Lighthouse Mobile](./docs/readme/lighthouse_mobile.png)
+
+Overall, I am very happy with the scores achieved. There is some improvements that could be made, such as the contrast of the buttons and logo against the background, which is one of the main factors that reduced the accessibility score. This is something that could be addressed in future by tweaking the design as previously mentioned in the features to implement section.
 
 ### Manual Testing
+
+The following tests were carried out on all page areas (if applicable) using a Windows desktop using Firefox and Chrome and an iPhone 15 Pro Max using Safari.
+
+| Feature | Expected Outcome | Testing Performed | Pass/Fail |
+| ------- | ---------------- | ----------------- | --------- | 
+| Brand Text Link | Link directs user back to landing page | Clicked brand text | Pass |
+| Start Button | Starts the game | Clicked start button | Pass |
+| Next Question Button | Should not move to the next question until an answer has been chosen | Clicked next question button | Pass |
+| Answer Buttons | Should be disabled and change to grey with white text colour when after clicking | Clicked answer button | Pass |
+| Next Question Button | Should be enabled after an answer is chosen, allowing the user to move onto the next question | Clicked next question button after clicking an answer button | Pass |
+| Play Again Button | Button directs user back to landing page | Clicked play again button | Pass |
+| Score | Score should directly correspond to the number of correct answers | Completed quiz with scores 0-10 | Pass |
+| Results Message | Results message should directly correspond to the number of correct answers | Completed quiz with scores 0-10 | Pass |
 
 ## Deployment
 
@@ -237,9 +266,20 @@ $ git clone https://github.com/99bjacko/milestone-project-1.git
 ## Credits
 
 ### Code
+
+- [Bootstrap 4.1.3](https://getbootstrap.com/docs/4.1/getting-started/download/) was used throughout this project, utilising the built in Grid System.
 - The code used for randomising the questions was the [Durstenfeld shuffle](https://stackoverflow.com/a/12646864)
+
 ### Content
 
-### Media
+- All text content was written by the developer
+- [Genius](https://genius.com/) was used for finding the lyrics for the game
+- [Spotify](https://open.spotify.com/) was used for finding songs that I wanted to use for the game based on songs in my playlists and overall stream statistics.
 
 ### Acknowledgements
+
+- Code Institute for all course material
+- Code Institute Slack community for assistance and guidance on the project
+- Code Institute Student Care team, especially Kieron, for being accommodating and helpful
+- My mentor, Rahul, for providing inspiration and encouragement
+- My cohort facilitator, Amy, for support and feedback
